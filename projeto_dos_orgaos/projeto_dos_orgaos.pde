@@ -6,15 +6,16 @@ String modo = "menu";
 String texto = "vazio";
 String texto1 = "explicacao orgao 1";
 String texto2 = "explicacao orgao 2";
-int vel = 40;
+int vel = 20;
 
 void setup() {
   size(800, 800); // Definir o tamanho da janela do Processing
   fullScreen();
   
   imagemOrgao1 = loadImage("orgao1.jpg");
-  imagemOrgao2 = loadImage("orgao2.jpg");
+  imagemOrgao2 = loadImage("medica.jpg");
   fundo = loadImage("fundo.jpg");
+  imagem = loadImage("orgao1.jpg");
   
 
   
@@ -108,7 +109,7 @@ void draw() {
 
     tint(255,opacidade);
     imageMode(CENTER);
-    image(imagemOrgao1, width/2, height/1.75);
+    image(imagem, width/2, height/1.75);
     
     fill(0,opacidade);
     text(texto, width/2, height/4);
