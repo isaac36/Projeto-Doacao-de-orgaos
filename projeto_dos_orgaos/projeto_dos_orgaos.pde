@@ -11,7 +11,7 @@ int vel = 20;
 void setup() {
   size(800, 800); // Definir o tamanho da janela do Processing
   fullScreen();
-  
+  frameRate(30);
   imagemOrgao1 = loadImage("orgao1.jpg");
   imagemOrgao2 = loadImage("medica.jpg");
   fundo = loadImage("fundo.jpg");
