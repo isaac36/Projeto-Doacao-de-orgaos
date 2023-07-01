@@ -65,7 +65,7 @@ void draw() {
   
   
   
-  //Fade in
+  //Controladores de estado
 
   if ((mostrarInfo1)&&(modo=="menu")){
     
